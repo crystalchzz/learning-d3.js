@@ -1,0 +1,106 @@
+
+path {
+	fill: none;
+	stroke: #999;
+}
+
+
+rect {
+	fill: orange;
+}
+
+
+.cir path {
+	fill: orange;
+	stroke: white;
+  
+}
+
+.cir text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  fill: white;
+  text-anchor: middle;
+}
+
+
+
+.tree rect {
+  fill: rgb(160, 95, 138);
+  opacity: 0.3;
+  stroke: white;
+}
+.tree text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: black;
+  font-size: 12px;
+  
+  
+}
+
+.presentation ul li {
+  margin: 20px;
+  font-size: 2rem;
+}
+.presentation div img {
+  margin: 30px;
+}
+.presentation div:last-child {
+  margin-bottom: 200px;
+}
+
+.presentation p {
+font-size: 2rem;}
+
+
+
+div {
+  margin: 40px 20px
+}
+
+.demo  {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+.demo h1 {
+  margin: 50px 0px;
+  
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+
+#wrapper div {
+  margin: 2px;
+}
+.person {
+  height: 20px;
+  position: relative;
+}
+.person .label {
+  width: 90px;
+  text-align: right;
+}
+.person .bar {
+  height: 19px;
+  background-color: rgb(171, 70, 180);
+  position: absolute;
+  left: 100px;
+  
+}
+.person div {
+  display: inline-block;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.geo li {
+  padding: 10px
+}
